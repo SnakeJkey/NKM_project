@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animals.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Had.cpp" />
     <ClCompile Include="Kocka.cpp" />
   </ItemGroup>
