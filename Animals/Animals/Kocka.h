@@ -6,8 +6,8 @@ class Kocka :
 
 public:
 
-    Kocka(const std::string&, int vek, int vaha)
-        :Animals(name, age, weight)
+    Kocka(const std::string& name, int age, int weight);
+
 
         ~Kocka() override;
 
