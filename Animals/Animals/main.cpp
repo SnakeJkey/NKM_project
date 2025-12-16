@@ -9,7 +9,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    cout << "Vitejte v ZOO!\n";
+
+	Had Python("Demon ", 5, 15, true, 3);
+	Python.speak();
+    
+	Had* HadPtr = new Had("Aternus ", 4, 12, false, 2);
+	HadPtr->speak();
 
    /*
     Kocka whiskers("whiskers", 3, 10, "Black", 5);
