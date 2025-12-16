@@ -22,11 +22,6 @@ public:
     bool isPoisunous() const;
     size_t getLifeNumber() const;
 
-
-protected:
-    size_t getLifeNumber() const;
-
-
 private:
     size_t mLifeNumber;
     bool mIsPoisonous;
