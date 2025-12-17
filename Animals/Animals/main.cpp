@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     Kocka Micka("Micka", 5, 5);
-    cout << Micka.speak() << "Hello World!\n";
+    Micka.speak();
 
    /*
     Kocka whiskers("whiskers", 3, 10, "Black", 5);

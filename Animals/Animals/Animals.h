@@ -8,11 +8,10 @@ public:
 	virtual ~Animals();
 	const string& getName() const;
 	int getAge() const;
-	virtual const string& speak() const;
+	virtual void speak() const;
 protected:
 	string mName;
 	int mAge;
 	int mWeight;
 };
 
-void speak() const;

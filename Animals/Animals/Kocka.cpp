@@ -7,7 +7,7 @@ Kocka::Kocka(const std::string& name, int age, int weight) : Animals(name, age, 
 }
 
 
-const string& Kocka::speak() const
+void Kocka::speak() const
 {
 	std::cout << getName() << "Meow" << std::endl;
 }
