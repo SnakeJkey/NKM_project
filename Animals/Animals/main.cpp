@@ -9,9 +9,23 @@ using namespace std;
 
 int main()
 {
+	cout << "Vitejte V ZOO! \n";
     Kocka Micka("Micka", 5, 5);
     Micka.speak();
 
+    cout << endl;
+
+    Had Python("Eternal", 7, 15, true, 3);
+    Python.speak();
+    cout << "Jed had jedovaty? " << Python.isPoisunous() << endl;
+	cout << "Had ma " << Python.getLifeNumber() << " zivoty/u" << endl;
+
+    cout << endl;
+
+    Had* HadPtr = new Had("Aternus", 4, 12, false, 5);
+    HadPtr->speak();
+    cout << "Je had jedovaty? " << HadPtr->isPoisunous() << endl;
+    cout << "Had ma " << HadPtr->getLifeNumber() << " zivoty/u" << endl;
    /*
     Kocka whiskers("whiskers", 3, 10, "Black", 5);
     whiskers.speak();

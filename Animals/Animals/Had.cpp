@@ -26,7 +26,7 @@ const string& Had::getName() const
 
  void Had::speak() const
 {
-	std::cout << getName() << "SSSSSSSSSS" << std::endl;
+	std::cout << getName() << " SSSSSSSSSS" << std::endl;
 }
 
 bool Had::isPoisunous() const
