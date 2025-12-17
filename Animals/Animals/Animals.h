@@ -15,3 +15,4 @@ protected:
 	int mWeight;
 };
 
+void speak() const;

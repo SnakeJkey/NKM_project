@@ -20,7 +20,7 @@ int Animals::getAge() const
 	return mAge;
 }
 
-const string Animals::speak() const
+void speak() const
 {
 	cout << getName() << " vydava zvuk \n";
 }

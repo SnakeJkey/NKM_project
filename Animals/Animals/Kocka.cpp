@@ -3,7 +3,7 @@
 
 Kocka::Kocka(const std::string& name, int age, int weight) : Animals(name, age, weight)
 {
-
+	std::cout << "Kocka je stvorena: " << name << std::endl;
 }
 
 
