@@ -24,7 +24,7 @@ const string& Had::getName() const
 	return mName;
 }
 
-void Had::speak() const
+ void Had::speak() const
 {
 	std::cout << getName() << "SSSSSSSSSS" << std::endl;
 }

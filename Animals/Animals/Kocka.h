@@ -9,7 +9,7 @@ public:
     Kocka(const std::string& name, int age, int weight);
 
 
-        ~Kocka() override;
+       const string& speak() const override;
 
 };
 

@@ -9,7 +9,8 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    Kocka Micka("Micka", 5, 5);
+    cout << Micka.speak() << "Hello World!\n";
 
    /*
     Kocka whiskers("whiskers", 3, 10, "Black", 5);
