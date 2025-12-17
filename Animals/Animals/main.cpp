@@ -13,9 +13,13 @@ int main()
 
 	Had Python("Demon ", 5, 15, true, 3);
 	Python.speak();
+    Python.isPoisunous();
+	Python.getLifeNumber();
     
 	Had* HadPtr = new Had("Aternus ", 4, 12, false, 2);
 	HadPtr->speak();
+    HadPtr->isPoisunous();
+	HadPtr->getLifeNumber();
 
    /*
     Kocka whiskers("whiskers", 3, 10, "Black", 5);
